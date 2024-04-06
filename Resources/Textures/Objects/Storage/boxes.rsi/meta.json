@@ -214,6 +214,10 @@
         },
         {
             "name": "box_command"
+        },
+        {
+            "name": "nano_label"
+        }
         }
     ]
 }
