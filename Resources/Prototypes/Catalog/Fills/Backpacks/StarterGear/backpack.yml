@@ -69,7 +69,7 @@
       - id: BoxSurvival
       - id: Flash
       #- name: StationCharter
-      - id: Telebaton
+      - id: Telebaton #Imperial
 
 - type: entity
   noSpawn: true
@@ -80,7 +80,7 @@
     contents:
       - id: BoxSurvivalEngineering
       - id: Flash
-      - id: Telebaton
+      - id: Telebaton #Imperial
 
 - type: entity
   noSpawn: true
@@ -91,7 +91,7 @@
     contents:
       - id: BoxSurvival
       - id: Flash
-      - id: Telebaton
+      - id: Telebaton #Imperial
 
 - type: entity
   noSpawn: true
@@ -102,7 +102,7 @@
     contents:
       - id: BoxSurvival
       - id: Flash
-      - id: Telebaton
+      - id: Telebaton #Imperial
 
 - type: entity
   noSpawn: true
@@ -113,7 +113,7 @@
     contents:
       - id: BoxSurvivalMedical
       - id: Flash
-      - id: Telebaton
+      - id: Telebaton #Imperial
 
 - type: entity
   noSpawn: true
@@ -124,7 +124,7 @@
     contents:
       - id: BoxSurvival
       - id: Flash
-      - id: Telebaton
+      - id: Telebaton #Imperial
 
 - type: entity
   noSpawn: true
