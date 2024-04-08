@@ -37,6 +37,9 @@
   - type: ItemToggle
   - type: ItemToggleSize
     activatedSize: Normal
+  - type: GuideHelp
+    guides:
+    - Security
   # - type: QualityOfItem
   #   qualityWeights:
   #     0: 0
