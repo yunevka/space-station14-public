@@ -27,7 +27,6 @@ namespace Content.Server.Imperial.Telebaton
 
             SubscribeLocalEvent<TelebatonComponent, UseInHandEvent>(OnUseInHand);
             SubscribeLocalEvent<TelebatonComponent, ExaminedEvent>(OnExamined);
-            SubscribeLocalEvent<TelebatonComponent, StaminaDamageOnHitAttemptEvent>(OnStaminaHitAttempt);
             SubscribeLocalEvent<TelebatonComponent, MeleeHitEvent>(OnMeleeHit);
         }
 
@@ -80,16 +79,6 @@ namespace Content.Server.Imperial.Telebaton
                 : Loc.GetString("melee-telebaton-examined-retracted");
             args.PushMarkup(msg);
         }
-
-private void OnStaminaHitAttempt(EntityUid uid, TelebatonComponent component, ref StaminaDamageOnHitAttemptEvent args)
-{
-    if (!component.Activated)
-    {
-        args.Cancelled = true;
-        return;
-    }
-    //args.HitSoundOverride = component.stunsound;
-}
 
         private void OnMeleeHit(EntityUid uid, TelebatonComponent component, MeleeHitEvent args)
         {
