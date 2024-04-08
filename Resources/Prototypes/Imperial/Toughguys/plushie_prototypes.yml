@@ -117,7 +117,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: ArmenianStuffBottle
+      - id: ArmenianStuff
 
 - type: entity
   parent: BasePlushieCharacter
