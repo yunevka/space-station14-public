@@ -122,7 +122,7 @@
     - state: presentable
     - state: sign_imperial
   - type: Item
-    size: 15
+    size: Small
   - type: Storage
     capacity: 10
   - type: StorageFill
