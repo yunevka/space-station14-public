@@ -20,3 +20,4 @@ ent-GrenadeFrag = осколочная граната
     .desc = { ent-BaseGrenade.desc }
     .suffix = { "" }
 ent-CannonBall = пушечное ядро
+ent-GrenadeEMP = ЭМИ граната
