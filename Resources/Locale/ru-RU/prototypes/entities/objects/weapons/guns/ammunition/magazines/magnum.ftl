@@ -26,4 +26,4 @@ ent-MagazineMagnumAP = пистолетный магазин (.45 магнум �
 ent-MagazineMagnumSubMachineGunPiercing = магазин Вектора (.45 магнум бронебойные)
     .desc = aseMagazineMagnumSubMachineGun
 ent-MagazineMagnumSubMachineGunUranium = магазин Вектора (.45 магнум урановые)
-    .desc. = BaseMagazineMagnumSubMachineGun
+    .desc = BaseMagazineMagnumSubMachineGun
