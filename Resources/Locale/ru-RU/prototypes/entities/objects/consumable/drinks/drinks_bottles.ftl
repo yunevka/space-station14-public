@@ -90,3 +90,7 @@ ent-DrinkSoyMilkCarton = соевое молоко
     .suffix = { "" }
 ent-DrinkBeerBottleFull = пиво
     .desc = Алкогольный напиток, приготовленный из солодовых зерен, хмеля, дрожжей и воды.
+ent-DrinkWaterMelonJuiceJug = кувшин арбузного сока
+    .desc = можно найти остатки семян.
+ent-DrinkTonicWaterBottleFull = бутылка тоника
+    .desc = Как газированная вода, но, возможно, более злая? Иногда сладкая.
