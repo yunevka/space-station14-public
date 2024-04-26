@@ -239,3 +239,5 @@ ent-ClothingUniformJumpsuitKimono = кимоно
     .desc = Традиционное китайское одеяние.
 ent-ClothingUniformJumpsuitCentcomAgent = комбинезон агента ЦентКома
     .desc = Костюм юристов ЦентКома. От него несёт кофе.
+ent-ClothingUniformJumpsuitClownBanana = костюм бананового клоуна
+    .desc = ХОНК!
