@@ -106,7 +106,6 @@ ent-WindoorSecureUranium = армированное урановое раздв�
     .desc = { ent-Windoor.desc }
 ent-WindoorAssemblySecureUranium = каркас армированного раздвижного окна
     .desc = { ent-Windoor.desc }
-    .suffix =
 ent-UraniumWindoorSecureCentralCommandLocked = { ent-WindoorSecureUranium }
     .desc = { ent-Windoor.desc }
     .suffix = ЦК, Закрыт

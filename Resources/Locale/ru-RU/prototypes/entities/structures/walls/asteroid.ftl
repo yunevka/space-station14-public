@@ -158,7 +158,7 @@ ent-AsteroidRockQuartz = астероидный камень
 ent-AsteroidRockQuartzCrab = астероидный камень
     .desc = Рудная жила, богатая кварцем.
     .suffix = Кварц, Краб
-ent-Рудная жила, богатая кварцем.
+ent-AsteroidRockSalt = Рудная жила, богатая кварцем.
     .desc = Рудная жила богатая солью
     .suffix = Соль
 ent-AsteroidRockSilver = астероидный камень
