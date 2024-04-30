@@ -262,9 +262,6 @@
               doAfter: 1
             - tool: Screwing
               doAfter: 1
-          steps:
-            - tool: Screwing
-              doAfter: 2
 
     - node: couchGold
       entity: GoldCouch
