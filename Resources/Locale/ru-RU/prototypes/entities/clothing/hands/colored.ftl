@@ -37,3 +37,7 @@ ent-ClothingHandsGlovesColorYellowBudget = дешевые изолированн
 ent-ClothingHandsGlovesConducting = { ent-ClothingHandsGlovesColorYellow }
     .desc = { ent-ClothingHandsGlovesColorYellow.desc }
     .suffix = Проводящие
+ent-ClothingHandsGlovesJanitor = резиновые перчатки
+    .desc = Качественные резиновые перчатки, скрипящие для уборки!
+ent-ClothingHandsGlovesHop = перчатки для работы с документами
+    .desc = Идеально подходит для работы с документами и бюрократическими вопросами.

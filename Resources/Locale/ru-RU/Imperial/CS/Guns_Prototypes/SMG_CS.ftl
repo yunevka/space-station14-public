@@ -7,3 +7,4 @@ ent-CSWeaponP90 = P90
 ent-CSWeaponMac-10 = mac-10
     .desc =Дешевое, скорострельное легкое оружие. Но не очень точное.
     .suffix = CS
+ent-CSWeaponBizon = бизон

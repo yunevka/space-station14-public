@@ -42,3 +42,5 @@ ent-ClothingHeadHatSquid = сквидди
     .suffix = { "" }
 ent-WaterDropletHat = водяная капля
     .desc = Делает 8-глазых друзей в 8 раз очаровательнее!
+ent-ClothingHeadHatDogEars = собачьи ушки
+    .desc = Только для хороших мальчиков
