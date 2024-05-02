@@ -121,3 +121,5 @@ ent-ERTMedicIDCard = карта медика ОБР
     .desc = { ent-IDCardStandard.desc }
 ent-ERTSecurityIDCard = карта бойца ОБР
     .desc = { ent-IDCardStandard.desc }
+ent-PirateIDCard = ID карта каперов
+    .desc = { ent-IDCardStandard.desc }

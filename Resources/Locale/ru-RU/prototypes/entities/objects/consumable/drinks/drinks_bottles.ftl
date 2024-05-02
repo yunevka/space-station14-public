@@ -95,6 +95,40 @@ ent-DrinkWaterMelonJuiceJug = кувшин арбузного сока
 ent-DrinkTonicWaterBottleFull = бутылка тоника
     .desc = Как газированная вода, но, возможно, более злая? Иногда сладкая.
 
+ent-DrinkAleBottleFullGrowler = магма-эль Гроулер
+    .desc = Настоящий напиток Дорфа. Бутылка для гроулера XL.
+ent-DrinkMopwataBottleRandom = вкусная мопвата
+    .desc = Туманно-коричневая бутылка с выцветшей этикеткой, изображающей швабру. В нем полно мутной... Старости.
+ent-DrinkGildlagerBottleFull = бутылка гилдлагера
+    .desc = 100 крепких шнапсов с корицей, приготовленных для девочек-алкоголичек на весенних каникулах.
+ent-DrinkJuiceLimeCartonXL = лаймовый сок XL
+    .desc = Кисло-сладкое совершенство.
+ent-DrinkCartonLime = бутылка от лаймового сока
+    .desc = Пустая бутылка
+ent-DrinkCartonMilk = пакет от молока
+    .desc = Пустой пакет
+ent-DrinkCartonOatMilk = пакет от молока
+    .desc = Пустой пакет
+ent-DrinkOatMilkCarton = овсяное молоко
+    .desc = Это овсяное молоко. Загар и питательное совершенство!
+ent-DrinkCartonCream = пакет от сливок
+    .desc = пустой пакет
+ent-DrinkCreamCartonXL = молочные сливки XL
+    .desc = Это сливки. Делается из молока. Что еще, по-твоему, ты найдешь там?
+ent-DrinkCartonSoyMilk = пакет от соевого молока
+    .desc = пустой пакет
+ent-DrinkJuiceOrangeCartonXL = апельсиновый сок XL
+    .desc = Двойной удар витамина C!
+ent-DrinkCartonOrange = пакет от апельсинового сока
+    .desc = пустой пакет
+
+ent-DrinkBloodGlass =  стакан метаморф
+    .desc = Я надеюсь, что это кетчуп.
+    .suffix = Кровь
+ent-DrinkGildlagerGlass =  стакан метаморф
+    .desc = { "" }
+    .suffix = Гильдягер
+
 ent-CustomDrinkJug = кувшин
     .desc = Кувшин для хранения своих напитков.
 ent-DrinkDrGibbJug = кувшин Доктора Гибба
@@ -119,3 +153,4 @@ ent-DrinkSugarJug = кувшин сахара
     .desc = C6H12O6
 ent-DrinkTeaJug = кувшин чая
     .desc = Любимый напиток британцев и хипстеров.
+

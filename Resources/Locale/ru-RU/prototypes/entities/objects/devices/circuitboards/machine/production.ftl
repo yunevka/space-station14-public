@@ -208,3 +208,4 @@ ent-OreProcessorIndustrialMachineCircuitboard = промышленный пер�
     .desc = { ent-BaseMachineCircuitboard.desc }
 ent-TurboItemRechargerCircuitboard = турбо зарядник (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
+ent-CondenserMachineCircuitBoard = конденсатор (машинная плата)
