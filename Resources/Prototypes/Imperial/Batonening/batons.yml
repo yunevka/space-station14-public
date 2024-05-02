@@ -40,15 +40,15 @@
   - type: GuideHelp
     guides:
     - Security
-  #- type: QualityOfItem
-  #  qualityWeights:
-  #    0: 0
-  #    1: 0
-  #    2: 0
-  #    3: 75
-  #    4: 25
-  #    5: 0
-  #    6: 0
+  - type: QualityOfItem
+    qualityWeights:
+      0: 0
+      1: 0
+      2: 0
+      3: 75
+      4: 25
+      5: 0
+      6: 0
 
 - type: entity
   name: telescopic baton
@@ -90,12 +90,12 @@
   - type: ItemToggle
   - type: ItemToggleSize
     activatedSize: Normal
-  #- type: QualityOfItem
-  #  qualityWeights:
-  #    0: 0
-  #    1: 0
-  #    2: 0
-  #    3: 90
-  #    4: 10
-  #    5: 0
-  #    6: 0
+  - type: QualityOfItem
+    qualityWeights:
+      0: 0
+      1: 0
+      2: 0
+      3: 90
+      4: 10
+      5: 0
+      6: 0
