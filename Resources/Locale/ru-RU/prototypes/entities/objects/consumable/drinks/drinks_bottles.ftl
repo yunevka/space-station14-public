@@ -145,7 +145,7 @@ ent-DrinkLemonLimeJug = кувшин лимон-лайма
     .desc = Двойной удар витамина С.
 ent-DrinkMeadJug = кувшин медовухи
     .desc = Хранение медовухи в пластиковом кувшине - преступление
-ent-DrinkEnergyDrinkJug = кувшин красного быка
+ent-DrinkEnergyDrinkJug = кувшин ред булла
     .desc = Почему он в сером кувшине?
 ent-DrinkRootBeerJug = кувшин рутбира
     .desc = Жалкий листолюб!
@@ -153,4 +153,3 @@ ent-DrinkSugarJug = кувшин сахара
     .desc = C6H12O6
 ent-DrinkTeaJug = кувшин чая
     .desc = Любимый напиток британцев и хипстеров.
-
