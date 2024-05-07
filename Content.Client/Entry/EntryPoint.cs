@@ -122,6 +122,7 @@ namespace Content.Client.Entry
             _prototypeManager.RegisterIgnore("wireLayout");
             _prototypeManager.RegisterIgnore("alertLevels");
             _prototypeManager.RegisterIgnore("nukeopsRole");
+            _prototypeManager.RegisterIgnore("ghostRoleRaffleDecider");
             _prototypeManager.RegisterIgnore("stationGoal"); // Corvax-Station
             _prototypeManager.RegisterIgnore("ertCall"); // Imperial ert call
 
