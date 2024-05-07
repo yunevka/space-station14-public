@@ -707,6 +707,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     {
         var newMessage = message.Trim();
         newMessage = SanitizeMessageReplaceWords(newMessage);
+        newMessage = ReplaceWords(newMessage); // Corvax-ChatSanitize
 
         if (capitalize)
             newMessage = SanitizeMessageCapital(newMessage);
