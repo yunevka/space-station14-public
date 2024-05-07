@@ -746,7 +746,7 @@
   - type: Drink
   - type: Label
   #Империал перевод
-    currentLabel: сахао
+    currentLabel: сахар
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
