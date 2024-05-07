@@ -129,7 +129,7 @@
     - revolutionaries
   name: rev-title
   description: rev-description
-  showInVote: false
+  showInVote: true # imperial add-on
   rules:
     - Revolutionary
     - BasicStationEventScheduler
