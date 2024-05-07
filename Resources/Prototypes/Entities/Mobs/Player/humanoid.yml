@@ -13,7 +13,7 @@
     - type: RandomMetadata
       nameSegments:
         - NamesFirstMilitaryLeader
-        - NamesLastMilitary
+        - names_last # Imperial
     - type: RandomHumanoidSpawner
       settings: DeathSquad
     - type: InitialInfectedExempt
@@ -32,7 +32,7 @@
     - type: RandomMetadata
       nameSegments:
         - NamesFirstMilitaryLeader
-        - NamesLastMilitary
+        - names_last # Imperial
     - type: InitialInfectedExempt
 
 
@@ -49,7 +49,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitaryLeader
-      - NamesLastMilitary
+        - names_last # Imperial
     - type: RandomHumanoidSpawner
       settings: ERTLeader
     - type: InitialInfectedExempt
@@ -68,7 +68,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitaryLeader
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: InitialInfectedExempt
 
 - type: entity
@@ -133,7 +133,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: RandomHumanoidSpawner
       settings: ERTJanitor
 
@@ -149,7 +149,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: Loadout
       prototypes: [ ERTJanitorGear ]
     - type: InitialInfectedExempt
@@ -193,7 +193,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: RandomHumanoidSpawner
       settings: ERTEngineer
 
@@ -209,7 +209,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: Loadout
       prototypes: [ ERTEngineerGear ]
     - type: InitialInfectedExempt
@@ -253,7 +253,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: RandomHumanoidSpawner
       settings: ERTSecurity
 
@@ -269,7 +269,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: Loadout
       prototypes: [ ERTSecurityGear ]
     - type: InitialInfectedExempt
@@ -334,7 +334,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: RandomHumanoidSpawner
       settings: ERTMedical
 
@@ -350,7 +350,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: Loadout
       prototypes: [ ERTMedicalGear ]
     - type: InitialInfectedExempt
@@ -407,7 +407,7 @@
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
-      - NamesLastMilitary
+      - names_last # Imperial
     - type: InitialInfectedExempt
 ## Central Command
 
