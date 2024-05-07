@@ -1146,9 +1146,12 @@
       sprite: Objects/Fun/toy_sword.rsi
     - type: UseDelay
       delay: 1.0
-    - type: Tag
+    - type: Tag # Imperial dual toy Begin
       tags:
-      - ToySword # Imperial dual toy
+      - ToySword
+    - type: Construction
+      graph: DualToySword
+      node: start # Imperial dual toy End
     - type: PointLight
       enabled: false
       radius: 2
