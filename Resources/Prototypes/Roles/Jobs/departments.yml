@@ -84,6 +84,7 @@
   - SecurityOfficer
   - Warden
   - SeniorOfficer # Imperial nuh uh
+  - Brigmedic # Imperial
 
 - type: department
   id: Science
