@@ -2,6 +2,7 @@
   id: Water
   impact: High
   minTemp: 574
+  priority: -2
   reactants:
     Hydrogen:
       amount: 2
@@ -59,7 +60,7 @@
       amount: 1
     WeldingFuel:
       amount: 1
-    Dylovene: 
+    Dylovene:
       amount: 2
     Chlorine:
       amount: 3
@@ -70,7 +71,7 @@
   id: Flexitaine
   reactants:
     Iron:
-      amount: 1 
+      amount: 1
     Nitrogen:
       amount: 1
     Oxygen:
@@ -85,7 +86,7 @@
       amount: 1
       catalyst: true
     Fluorine:
-      amount: 1 
+      amount: 1
     Bicaridine:
       amount: 1
     Sugar:
