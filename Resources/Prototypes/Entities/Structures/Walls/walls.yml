@@ -558,9 +558,9 @@
   suffix: rusted
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: Structures/Walls/solidrust.rsi # Imperial
   - type: Icon
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: Structures/Walls/solidrust.rsi # Imperial
     state: rgeneric
   - type: Construction
     graph: Girder
@@ -902,9 +902,9 @@
   suffix: rusted
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: Structures/Walls/solidrust.rsi # Imperial
   - type: Icon
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: Structures/Walls/solidrust.rsi # Imperial
     state: full
   - type: Construction
     graph: Girder
