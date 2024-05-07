@@ -33,6 +33,14 @@
     },
     {
       "name": "projectile"
+    },
+    {
+      "name": "emitter",
+      "directions": 4
+    },
+    {
+      "name": "lock",
+      "directions": 4
     }
   ]
 }
