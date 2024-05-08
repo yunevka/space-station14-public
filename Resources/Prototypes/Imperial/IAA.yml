@@ -14,7 +14,7 @@
   parent: JobIcon
   id: JobIconIAA
   icon:
-    sprite: Interface/Misc/imperial_job_icons.rsi
+    sprite: /Textures/Interface/Misc/imperial_job_icons.rsi
     state: IAA
 
 - type: job
@@ -29,7 +29,7 @@
       role: JobWarden
       time: 7200 #Imperial role timers
   startingGear: IAAGear
-  icon: "JobIconIAA"
+  icon: JobIconIAA
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
