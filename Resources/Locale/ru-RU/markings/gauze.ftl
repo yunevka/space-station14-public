@@ -89,7 +89,7 @@ marking-GauzeMothUpperArmLeft-gauze_moth_upperarm_l = Инсектоид, Бин
 marking-GauzeMothUpperArmLeft = Инсектоид, Бинт, Перевязь предплечья (Левый)
 
 marking-GauzeMothUpperLegRight-gauze_moth_upperleg_r = Инсектоид, Бинт, Перевязь бедра (Правый)
-marking-GauzeMothUpperLegRight = Инсектоид, Инсектоид, Бинт, Перевязь бедра (Правый)
+marking-GauzeMothUpperLegRight = Инсектоид, Бинт, Перевязь бедра (Правый)
 
 marking-GauzeMothUpperLegLeft-gauze_moth_upperleg_l = Инсектоид, Бинт, Перевязь бедра (Левый)
 marking-GauzeMothUpperLegLeft = Инсектоид, Бинт, Перевязь бедра (Левый)
@@ -99,3 +99,9 @@ marking-GauzeMothLowerLegRight = Инсектоид, Бинт, Перевязь 
 
 marking-GauzeMothLowerLegLeft-gauze_moth_lowerleg_l = Инсектоид, Бинт, Перевязь голени (Левый)
 marking-GauzeMothLowerLegLeft = Инсектоид, Бинт, Перевязь голени (Левый)
+
+marking-GauzeRighteyeTape-gauze_righteye_1 = Марлевая подушечка для глаза (правая)
+marking-GauzeRighteyeTape = Марлевая подушечка для глаза (правая)
+
+marking-GauzeLefteyeTape-gauze_lefteye_1 = Марлевая подушечка для глаз (слева)
+marking-GauzeLefteyeTape = Марлевая подушечка для глаз (слева)

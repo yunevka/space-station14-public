@@ -2,6 +2,7 @@ forensic-scanner-interface-title = Криминалистический скан
 forensic-scanner-interface-fingerprints = Отпечатки
 forensic-scanner-interface-fibers = Волокна
 forensic-scanner-interface-dnas = ДНК
+forensic-scanner-interface-residues = Остатки
 forensic-scanner-interface-no-data = Нет данных для сканирования
 forensic-scanner-interface-print = Распечатать
 forensic-scanner-interface-clear = Очистить
@@ -23,3 +24,5 @@ forensic-scanner-verb-message = Выполняется криминалисти�
 
 forensic-pad-fingerprint-name = владелец отпечатков: { $entity }
 forensic-pad-gloves-name = источник волокон: { $entity }
+
+forensics-cleaning = Вы начинаете очищать улики от {$target}...
