@@ -27,9 +27,9 @@ public sealed class SponsorsManager
     {
         _sawmill = Logger.GetSawmill("sponsors");
         _cfg.OnValueChanged(CCCVars.SponsorsApiUrl, s => _apiUrl = s, true);
-        
+
         _netMgr.RegisterNetMessage<MsgSponsorInfo>();
-        
+
         _netMgr.Connecting += OnConnecting;
         _netMgr.Connected += OnConnected;
         _netMgr.Disconnect += OnDisconnect;
@@ -50,17 +50,18 @@ public sealed class SponsorsManager
             return;
         }
         DebugTools.Assert(!_cachedSponsors.ContainsKey(e.UserId), "Cached data was found on client connect");
-
+        _sawmill.Debug(e.UserName + " is sponsor " + info.HavePriorityJoin.ToString());
+        _sawmill.Debug(e.UserName + " tier??? " + info.Tier.ToString());
         _cachedSponsors[e.UserId] = info;
     }
-    
+
     private void OnConnected(object? sender, NetChannelArgs e)
     {
         var info = _cachedSponsors.TryGetValue(e.Channel.UserId, out var sponsor) ? sponsor : null;
         var msg = new MsgSponsorInfo() { Info = info };
         _netMgr.ServerSendMessage(msg, e.Channel);
     }
-    
+
     private void OnDisconnect(object? sender, NetDisconnectedArgs e)
     {
         _cachedSponsors.Remove(e.Channel.UserId);
