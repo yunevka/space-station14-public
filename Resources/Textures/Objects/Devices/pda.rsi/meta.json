@@ -225,6 +225,15 @@
         },
         {
             "name": "pda-medicalert"
+        },
+        {
+            "name": "pda-syndi-agent"
+        },
+        {
+            "name": "pda-blueshield"
+        },
+        {
+            "name": "pda-pirate"
         }
     ]
 }
