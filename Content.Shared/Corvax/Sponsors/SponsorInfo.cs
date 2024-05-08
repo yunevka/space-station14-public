@@ -53,7 +53,7 @@ public sealed class MsgSponsorInfo : NetMessage
         buffer.Write(Info != null);
         buffer.WritePadBits();
         if (Info == null) return;
-        var stream = new MemoryStream();
+        using var stream = new MemoryStream();
         serializer.SerializeDirect(stream, Info);
         buffer.WriteVariableInt32((int) stream.Length);
         buffer.Write(stream.AsSpan());
