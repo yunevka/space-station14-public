@@ -46,6 +46,7 @@ public sealed class SponsorsManager
         //if (info?.Tier == null)
         if (info == null)
         {
+            _sawmill.Debug("no info found");
             //_cachedSponsors.Remove(e.UserId); // Remove from cache if sponsor expired
             return;
         }
