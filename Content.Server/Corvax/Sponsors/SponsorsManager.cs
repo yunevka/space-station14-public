@@ -51,8 +51,6 @@ public sealed class SponsorsManager
             return;
         }
         DebugTools.Assert(!_cachedSponsors.ContainsKey(e.UserId), "Cached data was found on client connect");
-        _sawmill.Debug(e.UserName + " is sponsor " + info.HavePriorityJoin.ToString());
-        _sawmill.Debug(e.UserName + " tier??? " + info.Tier.ToString());
         _cachedSponsors[e.UserId] = info;
     }
 
