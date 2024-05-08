@@ -81,3 +81,6 @@ marking-DionaVinesHead = Диона, Лоза короткая (Лоза)
 
 marking-DionaWildflowerHead-wildflower = Диона, Полевые цветы (Цветы)
 marking-DionaWildflowerHead = Диона, Полевые цветы (Цветы)
+
+marking-DionaVineOverlay-overlay = Лозы тела Дионы
+marking-DionaVineOverlay = Лозы тела Дионы

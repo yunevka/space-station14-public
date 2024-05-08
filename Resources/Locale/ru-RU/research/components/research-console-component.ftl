@@ -18,3 +18,4 @@ research-console-prereqs-list-start = Требуется:
 research-console-prereqs-list-entry = - [color=orchid]{$text}[/color]
 
 research-console-no-access-popup = Нет доступа!
+research-console-unlock-technology-radio-broadcast = Разблокировано [bold]{$technology}[/bold] стоимостью [bold]{$amount}[/bold].
