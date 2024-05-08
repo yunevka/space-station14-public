@@ -100,7 +100,9 @@ public sealed class MagicMirrorSystem : EntitySystem
             BreakOnHandChange = false,
             BreakOnUserMove = true,
             BreakOnWeightlessMove = false,
-            NeedHand = true
+            NeedHand = true,
+            CancelDuplicate = true, // Imperial Fix
+            DuplicateCondition = DuplicateConditions.SameTool // Imperial Fix
         }, out var doAfterId);
 
         component.DoAfter = doAfterId;
@@ -156,7 +158,9 @@ public sealed class MagicMirrorSystem : EntitySystem
             BreakOnHandChange = false,
             BreakOnUserMove = true,
             BreakOnWeightlessMove = false,
-            NeedHand = true
+            NeedHand = true,
+            CancelDuplicate = true, // Imperial Fix
+            DuplicateCondition = DuplicateConditions.SameTool // Imperial Fix
         }, out var doAfterId);
 
         component.DoAfter = doAfterId;
@@ -211,7 +215,9 @@ public sealed class MagicMirrorSystem : EntitySystem
             BreakOnHandChange = false,
             BreakOnUserMove = true,
             BreakOnWeightlessMove = false,
-            NeedHand = true
+            NeedHand = true,
+            CancelDuplicate = true, // Imperial Fix
+            DuplicateCondition = DuplicateConditions.SameTool // Imperial Fix
         }, out var doAfterId);
 
         component.DoAfter = doAfterId;
@@ -268,7 +274,9 @@ public sealed class MagicMirrorSystem : EntitySystem
             BreakOnHandChange = false,
             BreakOnUserMove = true,
             BreakOnWeightlessMove = false,
-            NeedHand = true
+            NeedHand = true,
+            CancelDuplicate = true, // Imperial Fix
+            DuplicateCondition = DuplicateConditions.SameTool // Imperial Fix
         }, out var doAfterId);
 
         component.DoAfter = doAfterId;
