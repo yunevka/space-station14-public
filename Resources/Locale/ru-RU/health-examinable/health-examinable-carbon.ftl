@@ -1,6 +1,6 @@
 ﻿health-examinable-carbon-none = Видимые повреждения тела отсутствуют.
 
-health-examinable-carbon-Blunt-25 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} легкие ушиби на {POSS-ADJ($target)} теле.[/color]
+health-examinable-carbon-Blunt-25 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} легкие ушибы на {POSS-ADJ($target)} теле.[/color]
 health-examinable-carbon-Blunt-50 = [color=crimson]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} большие синяки по всему {POSS-ADJ($target)} телу![/color]
 health-examinable-carbon-Blunt-75 = [color=crimson]{CAPITALIZE(POSS-ADJ($target))} тело полностью покрыто язвами![/color]
 
