@@ -1,6 +1,6 @@
 ent-CrateRCDAmmo = ящик зарядов РСУ
     .desc = 3 картриджа для РСУ. Каждый имеет по 5 зарядов
-ent-CrateRCD = Ярик РСУ
+ent-CrateRCD = Ящик РСУ
     .desc = Язик содержащий РСУ
     .suffix = Защищённый
 ent-CrateServiceBoozeDispenser = ящик пополнения раздатчика алкогооля

@@ -12,3 +12,5 @@ crew-monitoring-user-interface-dead = Мёртв
 crew-monitoring-user-interface-no-info = Н/Д
 
 crew-monitoring-user-interface-no-server = Сервер не найден
+
+crew-monitoring-user-interface-no-department = Вне отделов

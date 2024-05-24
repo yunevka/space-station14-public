@@ -4,6 +4,8 @@ objectives-round-end-result = { $count ->
        *[other] Было {$count} {$agent}.
     }
 
+objectives-round-end-result-in-custody = { $custody } из { $count } { $agent } были арестованы.
+
 objectives-player-user-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color])
 objectives-player-user = [color=gray]{$user}[/color]
 objectives-player-named = [color=White]{$name}[/color]
