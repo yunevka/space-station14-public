@@ -35,15 +35,7 @@
             "name": "pda-made"
         },
         {
-            "name": "pda-sona",
-            "delays": [
-                [
-                    0.8,
-                    0.8,
-                    0.8,
-                    0.8
-                ]
-            ]
+            "name": "pda-sona"
         },
         {
             "name": "pda-elysiumFederation"
