@@ -174,7 +174,7 @@
     id: CBURNPDA
     pocket1: CBURNUplinkLeader
     #pocket2: WeaponLaserGun
-    suitstorage: YellowOxygenTankFilled
+    suitstorage: OxygenTankFilled
     belt: ClothingBeltBandolier
   innerclothingskirt: ClothingUniformJumpsuitColorBrown
   satchel: ClothingBackpackCallERTCBURNFilledLeader
@@ -195,7 +195,7 @@
     id: CBURNPDA
     pocket1: CBURNUplinkSecurity
     #pocket2: WeaponLaserGun
-    suitstorage: YellowOxygenTankFilled
+    suitstorage: OxygenTankFilled
     belt: ClothingBeltBandolier
   innerclothingskirt: ClothingUniformJumpsuitColorBrown
   satchel: ClothingBackpackCallERTCBURNFilled
@@ -216,7 +216,7 @@
     id: PDAMedicalERT
     pocket1: ERTUplinkMedic
     #pocket2: WeaponLaserGun
-    suitstorage: YellowOxygenTankFilled
+    suitstorage: OxygenTankFilled
     belt: ClothingBeltBandolier
   innerclothingskirt: ClothingUniformJumpsuitColorBrown
   satchel: ClothingBackpackCallERTCBURNFilled
@@ -238,7 +238,7 @@
     id: DeadSquadPDA
     pocket1: ERTUplinkDeadSquad
     #pocket2: WeaponLaserGun
-    suitstorage: YellowOxygenTankFilled
+    suitstorage: OxygenTankFilled
     belt: ClothingBeltDeadSquadFilled
 #DEAD SQUAD END
 

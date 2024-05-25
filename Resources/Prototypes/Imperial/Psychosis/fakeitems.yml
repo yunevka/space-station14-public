@@ -14,7 +14,7 @@
     pocket1: SpiderCharge
     pocket2: PinpointerStation
     belt: EnergyKatana
-    suitstorage: YellowOxygenTankFilled
+    suitstorage: OxygenTankFilled
 
 - type: entity
   parent: WeaponAntiqueLaser
