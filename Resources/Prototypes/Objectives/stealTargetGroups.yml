@@ -102,7 +102,7 @@
 
 - type: stealTargetGroup
   id: HeadBedsheet
-  name: одеяло (любые)
+  name: одеяло (глав)
   sprite:
     sprite: Objects/Misc/bedsheets.rsi
     state: sheetNT
