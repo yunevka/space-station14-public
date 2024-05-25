@@ -36,3 +36,18 @@ signal-port-description-logic-output-high = Этот порт вызываетс
 
 signal-port-name-logic-output-low = Низкий выход
 signal-port-description-logic-output-low = Этот порт вызывается всякий раз, когда на входе есть задний фронт.
+
+signal-port-name-decaying = Распад
+signal-port-description-decaying = Этот порт задействуется когда привязанная аномалия переходит в состояние распада.
+
+signal-port-name-stabilize = Стабилизация
+signal-port-description-stabilize = Этот порт задействуется когда привязанная аномалия переходит в стабильное состояние.
+
+signal-port-name-growing = Рост
+signal-port-description-growing = Этот порт задействуется когда привязанная аномалия переходит в состояние роста.
+
+signal-port-name-pulse = Импульс
+signal-port-description-pulse = Этот порт задействуется когда привязанная аномалия создаёт импульс.
+
+signal-port-name-supercrit = Коллапс
+signal-port-description-supercrit = Этот порт задействуется когда привязанная аномалия взрывается после перехода в состояние коллапса. 
