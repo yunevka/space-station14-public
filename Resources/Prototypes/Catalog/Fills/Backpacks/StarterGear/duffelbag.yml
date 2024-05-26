@@ -48,6 +48,7 @@
   - type: StorageFill
     contents:
       - id: Flash
+      - id: BoxSurvivalBrigmedic
 
 - type: entity
   noSpawn: true
