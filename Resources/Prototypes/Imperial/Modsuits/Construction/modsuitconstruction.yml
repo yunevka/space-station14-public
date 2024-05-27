@@ -62,7 +62,7 @@
     node: start
     defaultTarget: modsuitconstructed
   - type: Item
-    size: 60000
+    size: Huge
 
 - type: entity
   parent: BaseItem
@@ -77,7 +77,7 @@
     tags:
     - ModsuitControlAdvanced
   - type: Item
-    size: 60000
+    size: Huge
 
 - type: entity
   parent: BaseItem
@@ -92,7 +92,7 @@
     tags:
     - ModsuitControlSafeguard
   - type: Item
-    size: 60000
+    size: Huge
 
 - type: entity
   parent: BaseItem
@@ -107,7 +107,7 @@
     tags:
     - ModsuitControlRescue
   - type: Item
-    size: 60000
+    size: Huge
 
 - type: entity
   parent: BaseItem
@@ -122,7 +122,7 @@
     tags:
     - ModsuitControlMagnate
   - type: Item
-    size: 60000
+    size: Huge
 
 - type: entity
   parent: BaseItem
@@ -137,7 +137,7 @@
     tags:
     - ModsuitControlEnd
   - type: Item
-    size: 60000
+    size: Huge
 
 - type: entity
   parent: BaseItem
