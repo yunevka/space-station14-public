@@ -45,7 +45,9 @@ petting-failure-holo = Вы тянетесь погладить {$target}, но 
 petting-failure-dragon = Вы поднимаете руку, но {$target} издаёт рёв, и вы решаете, что не хотите стать кормом для карпов.
 petting-failure-hamster = Вы тянетесь погладить {$target}, но он пытается укусить вас за палец, и только ваши молниеносные рефлексы спасают вас от почти смертельной травмы.
 petting-failure-bear = Вы думаете погладить {$target}, но он рычит, заставляя вас подумать ещё раз.
-
+petting-failure-monkey = Вы тянетесь погладить { $target }, но { $target } едва не кусает вас за пальцы!
+petting-failure-nymph = Вы тянетесь погладить { $target }, но { POSS-ADJ($target) } отодвигает свои ветви в сторону.
+petting-failure-shadow = Вы тянетесь погладить { $target }, но ваша рука проходит сквозь холодную тьму { POSS-ADJ($target) } тела.
 ## Petting silicons
 
 petting-success-honkbot = Вы гладите {$target} по его скользкой металлической голове.
