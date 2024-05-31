@@ -818,10 +818,13 @@
   components:
   - type: Pda
     id: ERTMedicIDCard
+    state: pda-medicalert
   - type: HealthAnalyzer
     scanDelay: 1
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
+  - type: Icon # Imperial Рескин КПК медика ОБР
+    state: pda-medicalert
 
 - type: entity
   parent: ERTLeaderPDA
