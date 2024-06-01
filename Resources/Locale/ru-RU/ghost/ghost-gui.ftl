@@ -18,6 +18,19 @@ ghost-target-window-title = Телепорт призрака
 ghost-target-window-current-button = Телепорт в: {$name}
 
 ghost-roles-window-title = Роли призраков
+ghost-roles-window-join-raffle-button = Участвовать в распределении
+ghost-roles-window-raffle-in-progress-button =
+    Участвовать в распределении (Осталось { $time }, { $players ->
+        [one] { $players } игрок
+        [few] { $players } игрока
+       *[other] { $players } игроков
+    })
+ghost-roles-window-leave-raffle-button =
+    Покинуть (Осталось { $time }, { $players ->
+        [one] { $players } игрок
+        [few] { $players } игрока
+       *[other] { $players } игроков
+    })
 ghost-roles-window-request-role-button = Запросить
 ghost-roles-window-request-role-button-timer = Запросить {$time}сек.
 ghost-roles-window-follow-role-button = Следовать

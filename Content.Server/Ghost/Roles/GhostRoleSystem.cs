@@ -28,6 +28,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Content.Server.Popups;
 
 namespace Content.Server.Ghost.Roles
 {
@@ -636,7 +637,7 @@ namespace Content.Server.Ghost.Roles
             UpdateAllEui();
         }
 
-        private void OnInit(Entity<GhostRoleComponent> ent, ref ComponentInit args)
+        private void OnMapInit(Entity<GhostRoleComponent> ent, ref MapInitEvent args)
         {
             if (ent.Comp.Probability < 1f && !_random.Prob(ent.Comp.Probability))
                 RemCompDeferred<GhostRoleComponent>(ent);
