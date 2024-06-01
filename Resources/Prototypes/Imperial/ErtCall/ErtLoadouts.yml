@@ -42,7 +42,7 @@
     eyes: ClothingEyesHudMedical
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterVestKevlar
-    id: PDAMedicalERT
+    id: ERTMedicPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltMedicalFilled
     pocket1: ERTUplinkMedic
@@ -58,7 +58,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTMedical
     suitstorage: OxygenTankFilled
-    id: PDAMedicalERT
+    id: ERTMedicPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltMedicalFilled
     pocket1: ERTUplinkMedic
@@ -74,7 +74,7 @@
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterVestKevlar
-    id: ERTLeaderPDA
+    id: ERTSecurityPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityWebbing
     pocket1: ERTUplinkSecurity
@@ -90,7 +90,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTSecurity
     suitstorage: OxygenTankFilled
-    id: ERTLeaderPDA
+    id: ERTSecurityPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityWebbing
     pocket1: ERTUplinkSecurity
@@ -106,7 +106,7 @@
     eyes: ClothingEyesGlassesMeson
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterVestKevlar
-    id: ERTLeaderPDA
+    id: ERTEngineerPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltChiefEngineerFilled
     pocket1: ERTUplinkEngineer
@@ -122,7 +122,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTEngineer
     suitstorage: OxygenTankFilled
-    id: ERTLeaderPDA
+    id: ERTEngineerPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltChiefEngineerFilled
     pocket1: ERTUplinkEngineer
@@ -137,7 +137,7 @@
     head: ClothingHeadHelmetHelmet
     gloves: ClothingHandsGlovesColorBlack
     outerClothing: ClothingOuterVestKevlar
-    id: ERTLeaderPDA
+    id: ERTJanitorPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltJanitorFilled
     pocket1: ERTUplinkJunitor
@@ -152,7 +152,7 @@
     gloves: ClothingHandsGlovesColorBlack
     outerClothing: ClothingOuterHardsuitERTJanitor
     suitstorage: OxygenTankFilled
-    id: ERTLeaderPDA
+    id: ERTJanitorPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltJanitorFilled
     pocket1: ERTUplinkJunitor
@@ -213,7 +213,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURNMedic
     shoes: ClothingShoesBootsCombatFilled
-    id: PDAMedicalERT
+    id: ERTMedicPDA
     pocket1: ERTUplinkMedic
     #pocket2: WeaponLaserGun
     suitstorage: OxygenTankFilled
