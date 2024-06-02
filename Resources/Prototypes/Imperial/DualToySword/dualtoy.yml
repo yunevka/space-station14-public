@@ -64,3 +64,5 @@
   - type: Construction
     graph: DualToySword
     node: DualToySword
+  - type: Reflect
+    reflectProb: 0

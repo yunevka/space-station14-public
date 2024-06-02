@@ -12,6 +12,7 @@ guide-entry-power = Электропитание
 guide-entry-portable-generator = Портативные генераторы
 guide-entry-ame = Двигатель антиматерии (ДАМ)
 guide-entry-singularity = Сингулярный двигатель
+guide-entry-rtg = Радиоизотопный термоэлектрический генератор (РИТЭГ)
 guide-entry-teg = Термоэлектрический генератор (ТЭГ)
 guide-entry-controls = Элементы управления
 guide-entry-radio = Рация
@@ -56,3 +57,4 @@ guide-entry-minor-antagonists = Минорные Антагонисты
 guide-entry-space-ninja = Космический Ниндзя
 
 guide-entry-writing = Письменность
+guide-entry-glossary = Словарь терминов
