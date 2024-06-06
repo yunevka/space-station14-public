@@ -58,15 +58,20 @@
   placement:
     mode: SnapgridCenter
     snap:
-    - Window
+    - Wall
   components:
+  - type: Transform
+    anchored: true
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/mining_diagonal.rsi
     state: state0
+  - type: Tag
+    tags:
+    - Wall
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls
     base: state
   - type: Icon
     sprite: Structures/Windows/mining_diagonal.rsi
