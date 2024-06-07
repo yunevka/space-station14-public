@@ -461,16 +461,16 @@
       components:
       - AnomalyCore
 
-- type: cargoBounty
-  id: BountyBorgModule
-  reward: 3500
-  description: bounty-description-borg-module
-  entries:
-  - name: bounty-item-borg-module
-    amount: 3
-    whitelist:
-      components:
-      - BorgModule
+# - type: cargoBounty Так как у нас нет модулей киборгов, то будет вырезано. Imperial Space
+#   id: BountyBorgModule
+#   reward: 3500
+#   description: bounty-description-borg-module
+#   entries:
+#   - name: bounty-item-borg-module
+#     amount: 3
+#     whitelist:
+#       components:
+#       - BorgModule
 
 - type: cargoBounty
   id: BountyArtifactFragment
