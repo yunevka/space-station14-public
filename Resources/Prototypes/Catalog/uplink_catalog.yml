@@ -89,7 +89,7 @@
       blacklist:
         tags:
           - NukeOpsUplink
-  
+
 - type: listing
   id: UplinkEshield
   name: uplink-eshield-name
@@ -442,7 +442,7 @@
   description: uplink-ammo-bundle-desc
   productEntity: ClothingBackpackDuffelSyndicateAmmoFilled
   cost:
-    Telecrystal: 15
+    Telecrystal: 16 #Imperial balance
   categories:
   - UplinkAmmo
   conditions:
@@ -467,7 +467,7 @@
     Telecrystal: 6
   categories:
   - UplinkChemicals
-  
+
 - type: listing
   id: UplinkHypoDart
   name: uplink-hypodart-name
@@ -489,7 +489,7 @@
     Telecrystal: 4
   categories:
   - UplinkChemicals
-  
+
 - type: listing
   id: UplinkZombieBundle
   name: uplink-zombie-bundle-name
@@ -559,7 +559,7 @@
     Telecrystal: 12
   categories:
   - UplinkChemicals
-  
+
 - type: listing
   id: UplinkCigarettes
   name: uplink-cigarettes-name
@@ -590,7 +590,7 @@
           - SurplusBundle
 
 # Deception
-  
+
 - type: listing
   id: UplinkAgentIDCard
   name: uplink-agent-id-card-name
@@ -600,7 +600,7 @@
     Telecrystal: 3
   categories:
   - UplinkDeception
-  
+
 - type: listing
   id: UplinkStealthBox
   name: uplink-stealth-box-name
@@ -628,11 +628,11 @@
   description: uplink-binary-translator-key-desc
   icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: rd_label }
   productEntity: EncryptionKeyBinary
-  cost: 
+  cost:
     Telecrystal: 1
   categories:
   - UplinkDeception
-  
+
 - type: listing
   id: UplinkCyberpen
   name: uplink-cyberpen-name
@@ -652,7 +652,7 @@
     Telecrystal: 1
   categories:
   - UplinkDeception
-  
+
 - type: listing
   id: UplinkUltrabrightLantern
   name: uplink-ultrabright-lantern-name
@@ -715,7 +715,7 @@
     Telecrystal: 8
   categories:
   - UplinkDisruption
-  
+
 - type: listing
   id: UplinkRadioJammer
   name: uplink-radio-jammer-name
@@ -755,7 +755,7 @@
     Telecrystal: 3
   categories:
   - UplinkDisruption
-  
+
 - type: listing
   id: UplinkToolbox
   name: uplink-toolbox-name
@@ -1109,7 +1109,7 @@
       whitelist:
         tags:
           - NukeOpsUplink
- 
+
 - type: listing
   id: UplinkUplinkImplanter # uplink uplink real
   name: uplink-uplink-implanter-name
