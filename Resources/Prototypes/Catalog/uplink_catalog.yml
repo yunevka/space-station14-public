@@ -726,7 +726,7 @@
   categories:
   - UplinkDisruption
 
-# - type: listing 
+# - type: listing // Вырезано Imperial Space, так как наши борги не работают с этим
 #   id: UplinkSyndicateWeaponModule
 #   name: uplink-syndicate-weapon-module-name
 #   description: uplink-syndicate-weapon-module-desc
