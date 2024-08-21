@@ -782,6 +782,7 @@
       whitelist:
         tags:
           - Sheet
+          - Ingot # Fix Imperial Space. Сделано, чтобы можно было печатать транквилизаторные патроны
 
 - type: entity
   id: MedicalTechFab
