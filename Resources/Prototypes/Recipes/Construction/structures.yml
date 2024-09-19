@@ -86,7 +86,7 @@
   canRotate: false
   canBuildInImpassable: false
   conditions:
-    - !type:TileNotBlocked    
+    - !type:TileNotBlocked
 
 - type: construction
   name: clock wall
@@ -1654,7 +1654,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Doors/secret_door.rsi
+    sprite: Structures/Doors/secret_doors/SolidSecretDoor.rsi
     state: closed
   conditions:
     - !type:TileNotBlocked
