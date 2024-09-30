@@ -1,0 +1,120 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformMonolith
+  description: null
+  name: monolith uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformMercenary
+  description: null
+  name: mercenary uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformTactical
+  description: null
+  name: tactical uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformPeresvet
+  description: null
+  name: peresvet uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSparta
+  description: null
+  name: sparta uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformHiredStalker
+  description: null
+  name: hired stalker uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformStalkerVer1
+  description: null
+  name: stalker uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformStalkerVer2
+  description: null
+  name: stalker uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformStalkerVer3
+  description: null
+  name: stalker uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformScientificGreen
+  description: null
+  name: scientific uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformScientificOrange
+  description: null
+  name: scientific uniform
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi

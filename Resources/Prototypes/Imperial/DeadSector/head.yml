@@ -1,0 +1,311 @@
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: AssaultACH
+  name: Assault ACH
+  suffix: DeadSector
+  description: Small helmet. Has 2 steel armor plates.
+  components:
+  - type: Item
+    size: Small
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.84
+        Slash: 0.97
+        Piercing: 0.97
+        Heat: 0.95
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/security.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: AssaultACHUN
+  name: Assault ACH-UN
+  suffix: DeadSector
+  description: Small helmet. Has 2 steel armor plates, mark of the National Liberation Army.
+  components:
+  - type: Item
+    size: Small
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.84
+        Slash: 0.97
+        Piercing: 0.97
+        Heat: 0.95
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/security.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: AssaultACHML
+  name: Assault ACH-ML
+  suffix: DeadSector
+  description: Small helmet. Has 2 steel armor plates, mark of the Federation Armed Forces.
+  components:
+  - type: Item
+    size: Small
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.84
+        Slash: 0.97
+        Piercing: 0.97
+        Heat: 0.95
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/security.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: AirCVC
+  name: Air CVC
+  suffix: DeadSector
+  description: Medium size helmet. It does not have armor plates, but has a reinforced shell throughout the entire body structure, a built-in communication function, and a personal headset.
+  components:
+  - type: ContainerContainer
+    containers:
+      key_slots: !type:Container
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommon
+  - type: Headset
+    requiredSlot: HEAD
+  - type: EncryptionKeyHolder
+    keySlots: 256
+  - type: Item
+    size: Normal
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.84
+        Slash: 0.97
+        Piercing: 0.97
+        Heat: 0.95
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/security.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ArmyBeretArmyG
+  name: Army beret Army-G
+  suffix: DeadSector
+  description: Miniature helmet. It has a dark green color.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/ArmyBeretArmyG.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/ArmyBeretArmyG.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ArmyBeretArmyS
+  name: Army beret Army-S
+  suffix: DeadSector
+  description: Miniature helmet. It has a dark blue color.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/ArmyBeretArmyS.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/ArmyBeretArmyS.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ArmyBeretArmyY
+  name: Army beret Army-Y
+  suffix: DeadSector
+  description: Miniature helmet. It has a dark yellow color.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/ArmyBeretArmyY.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/ArmyBeretArmyY.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: AssaultHelmetAltyn
+  name: Assault helmet "Altyn"
+  suffix: DeadSector
+  description: Small helmet. It has a thick body with MK-I fragmentation protection and a visor on the helmet. Black color.
+  components:
+  - type: Item
+    size: Small
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.70
+        Piercing: 0.90
+        Heat: 0.90
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/security.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: SwampHood
+  name: Swamp Hood
+  suffix: DeadSector
+  description: Has a black camouflage color. This hood is too light to slow down the wearer.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/SwampHood.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/SwampHood.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: DressCapArmyG
+  name: Dress cap Army-G
+  suffix: DeadSector
+  description: Miniature helmet. Has a built-in headset. Dark green color.
+  components:
+  - type: ContainerContainer
+    containers:
+      key_slots: !type:Container
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommon
+  - type: Headset
+    requiredSlot: HEAD
+  - type: EncryptionKeyHolder
+    keySlots: 2
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/DressCapArmyG.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/DressCapArmyG.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: DressCapArmyS
+  name: Dress cap Army-S
+  suffix: DeadSector
+  description: Miniature helmet. Has a gray color.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/DressCapArmyS.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/DressCapArmyS.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: DressCapArmyY
+  name: Dress cap Army-Y
+  suffix: DeadSector
+  description: Miniature helmet. Has a dark yellow color.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/DressCapArmyY.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/DressCapArmyY.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: DressCapArmyB
+  name: Dress cap Army-B
+  suffix: DeadSector
+  description: Miniature helmet. Has a dark blue color.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/DressCapArmyB.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/DressCapArmyB.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: Headband
+  name: Headband
+  suffix: DeadSector
+  description: Net headband.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/Headband.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/Headband.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: BloodyHeadband
+  name: Bloody headband
+  suffix: DeadSector
+  description: Headband. Bloody, obviously.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/BloodyHeadband.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/BloodyHeadband.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHatHoodWinterBase
+  id: ClothingHeadHatHoodCamouflageRobe
+  noSpawn: true
+  name: camouflage robe hood
+  components:
+  - type: Sprite
+    sprite: Imperial/DeadSector/head/CamouflageRobeHood.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/head/CamouflageRobeHood.rsi
