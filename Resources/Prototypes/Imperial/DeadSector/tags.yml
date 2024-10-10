@@ -48,3 +48,27 @@
 
 - type: Tag
   id: CartridgeAssaultPKM
+
+- type: Tag
+  id: Arithpen
+
+- type: Tag
+  id: Atropen
+
+- type: Tag
+  id: Bicpen
+
+- type: Tag
+  id: Dermpen
+
+- type: Tag
+  id: Firstaid
+
+- type: Tag
+  id: Hypovolemic
+
+- type: Tag
+  id: Morphen
+
+- type: Tag
+  id: Penacid
