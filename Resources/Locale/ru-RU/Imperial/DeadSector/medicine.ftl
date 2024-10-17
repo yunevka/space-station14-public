@@ -1,7 +1,7 @@
 ent-MedCoreTerminal = медицинский терминал
     .desc = Ха-ха, цветные кнопочки.
     .suffix = { "DeadSector" }
-ent-MedkitGalaxyWar = медицинский набор
+ent-MedkitDeadSector = медицинский набор
     .desc = Похоже на портсигар. Не стоит курить медипены внутри него.
     .suffix = { "DeadSector" }
 ent-DeadSectorSalinePack = физраствор

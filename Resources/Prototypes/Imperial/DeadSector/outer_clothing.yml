@@ -316,9 +316,9 @@
     - key: enum.StorageUiKey.Key
       type: StorageBoundUserInterface
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BZBeryoza.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BZBeryoza.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -349,9 +349,9 @@
     - key: enum.StorageUiKey.Key
       type: StorageBoundUserInterface
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BZBeryozaGraphite.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BZBeryozaGraphite.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -382,9 +382,9 @@
     - key: enum.StorageUiKey.Key
       type: StorageBoundUserInterface
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BZBeryozaZarya.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BZBeryozaZarya.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -415,9 +415,9 @@
     - key: enum.StorageUiKey.Key
       type: StorageBoundUserInterface
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BZBeryozaPolos.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BZBeryozaPolos.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -485,9 +485,9 @@
     - key: enum.StorageUiKey.Key
       type: StorageBoundUserInterface
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BodyArmorUN.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/BodyArmorUN.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -578,9 +578,9 @@
     - key: enum.StorageUiKey.Key
       type: StorageBoundUserInterface
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/CoatBZ.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: Imperial/DeadSector/outer_clothing/CoatBZ.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -775,3 +775,75 @@
         Caustic: 0.85
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodCamouflageRobe
+
+- type: entity
+  parent: ClothingOuterEVASuitBase
+  id: ClothingOuterHardsuitShadow
+  name: spacesuit of division Shadow
+  description: The spacesuit of the special unit of the RSC of the CH department. This suit has a unique black color, indicating belonging to a battalion or unit. The suit has strong protection thanks to titanium plates.
+  components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,2,2
+  - type: Sprite
+    sprite: Imperial/DeadSector/outer_clothing/ClothingOuterHardsuitShadow.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/outer_clothing/ClothingOuterHardsuitShadow.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.3
+        Heat: 0.65
+        Cold: 0.65
+        Shock: 0.65
+        Radiation: 0.65
+        Caustic: 0.6
+        Stamina: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+
+- type: entity
+  parent: ClothingOuterEVASuitBase
+  id: ClothingOuterHardsuitBZSKMkI
+  name: spacesuit BZSK Mk I
+  description: The spacesuit of a based unit of the Regular Army Forces. This suit has a unique light color, indicating belonging to a battalion or unit.
+  components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,2,2
+  - type: Sprite
+    sprite: Imperial/DeadSector/outer_clothing/ClothingOuterHardsuitBZSKMkI.rsi
+  - type: Clothing
+    sprite: Imperial/DeadSector/outer_clothing/ClothingOuterHardsuitBZSKMkI.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.75
+        Cold: 0.75
+        Shock: 0.75
+        Radiation: 0.9
+        Caustic: 0.9
+        Stamina: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier

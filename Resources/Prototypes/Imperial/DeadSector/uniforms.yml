@@ -5,9 +5,9 @@
   name: monolith uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformMonolith.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformMonolith.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,9 +16,9 @@
   name: mercenary uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformMercenary.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformMercenary.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -27,9 +27,9 @@
   name: tactical uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformTactical.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformTactical.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -38,9 +38,9 @@
   name: peresvet uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformPeresvet.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformPeresvet.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -49,9 +49,9 @@
   name: sparta uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformSparta.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformSparta.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -60,9 +60,9 @@
   name: hired stalker uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformHiredStalker.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformHiredStalker.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -71,9 +71,9 @@
   name: stalker uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformStalkerVer1.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformStalkerVer1.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -82,9 +82,9 @@
   name: stalker uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformStalkerVer2.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformStalkerVer2.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -93,9 +93,9 @@
   name: stalker uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformStalkerVer3.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformStalkerVer3.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -104,9 +104,9 @@
   name: scientific uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformScientificGreen.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformScientificGreen.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -115,6 +115,6 @@
   name: scientific uniform
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformScientificOrange.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/grey.rsi
+    sprite: Imperial/DeadSector/uniforms/ClothingUniformScientificOrange.rsi

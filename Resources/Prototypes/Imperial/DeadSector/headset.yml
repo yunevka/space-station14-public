@@ -7,7 +7,7 @@
   description: A headset used by the upper echelons of Nanotrasen.
   components:
   - type: EncryptionKeyHolder
-    keySlots: 20
+    keySlots: 30
   - type: Sprite
     sprite: Imperial/DeadSector/headset/headset.rsi
   - type: Clothing

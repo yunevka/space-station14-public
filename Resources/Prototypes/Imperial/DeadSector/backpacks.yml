@@ -60,7 +60,7 @@
   description: It has high capacity, low deceleration and large volume. Clear green color.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/BergenField.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -78,7 +78,7 @@
   description: It has high capacity, low deceleration and large volume. Black color.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/BergenRaptor.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -96,7 +96,7 @@
   description: Has above average capacity. Coloring a bag of potatoes.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/LargeHikingBagPotato.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -114,7 +114,7 @@
   description: Has average capacity. Black color.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/HikingBackpackBrother.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -132,7 +132,7 @@
   description: Has average capacity. Swamp color.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/HikingBackpackMask.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -150,7 +150,7 @@
   description: Has average capacity. Clear green color.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/HikingBackpackField.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -168,7 +168,7 @@
   description: Has average capacity. Signal bright orange color.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/HikingBackpackResearch.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -204,7 +204,7 @@
   description: Has a small capacity. Black color.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/PatrolBackpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -222,7 +222,7 @@
   description: Has average capacity. Black color with gray stripes.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/SportsBag.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -251,7 +251,7 @@
   - type: EncryptionKeyHolder
     keySlots: 256
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/ANARC164.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -283,7 +283,7 @@
       temperature: 293.15
     tankLowPressure: 30.0
   - type: Sprite
-    sprite: Clothing/Back/Duffels/duffel.rsi
+    sprite: Imperial/DeadSector/backpacks/ESOC1.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
